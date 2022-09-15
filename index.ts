@@ -28,6 +28,10 @@ class Alumno{
         return this.nombre;
     }
 
+    public setNombre(paramNombre:string):void{
+        this.nombre = paramNombre;
+    }
+
     public setNota(paramNota : number):void{
         this.nota = paramNota;
         this.setEstado();
@@ -77,6 +81,10 @@ class Profesor{
 
     public getNombre():string{
         return this.nombre;
+    }
+
+    public setNombre(paramNombre:string):void{
+        this.nombre = paramNombre;
     }
 
     public getAlumnos():Alumno[]{
