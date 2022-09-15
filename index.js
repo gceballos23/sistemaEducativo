@@ -14,6 +14,9 @@ var Alumno = /** @class */ (function () {
     Alumno.prototype.getNombre = function () {
         return this.nombre;
     };
+    Alumno.prototype.setNombre = function (paramNombre) {
+        this.nombre = paramNombre;
+    };
     Alumno.prototype.setNota = function (paramNota) {
         this.nota = paramNota;
         this.setEstado();
@@ -48,6 +51,9 @@ var Profesor = /** @class */ (function () {
     };
     Profesor.prototype.getNombre = function () {
         return this.nombre;
+    };
+    Profesor.prototype.setNombre = function (paramNombre) {
+        this.nombre = paramNombre;
     };
     Profesor.prototype.getAlumnos = function () {
         return this.alumnos;
