@@ -89,5 +89,5 @@ var alumno2 = new Alumno("0002", "Juan", 8);
 var profesor1 = new Profesor("0001", "Prof. Juan");
 var Escuela1 = new Escuela("Don Bosco", [alumno1, alumno2], [profesor1]);
 profesor1.setAlumnos(Escuela1.getAlumnos());
-console.log("Escuela: " + Escuela1);
-console.log("Profesor: " + profesor1);
+console.log(Escuela1);
+console.log(profesor1);
